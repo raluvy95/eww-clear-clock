@@ -1,0 +1,16 @@
+(defpoll time :interval "5s" "./scripts/getTime")
+
+(defwindow bar
+  :monitor 0
+  :windowtype "desktop"
+  :geometry (geometry
+    :y "-30%"
+    :width "30%"
+    :height "30%"
+    :anchor "center"
+  )
+  (overlay
+    (label :text "${time?.now}" :class "clock" )
+    (label :text "${time?.week}" :class "week" )
+  )
+)

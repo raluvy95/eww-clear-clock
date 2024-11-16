@@ -1,0 +1,22 @@
+#!/bin/env python3
+
+from datetime import datetime
+import json
+
+now = datetime.now()
+
+WEEKDAY = {
+    0: "Monday",
+    1: "Tuesday",
+    2: "Wednesday",
+    3: "Thursday",
+    4: "Friday",
+    5: "Saturday",
+    6: "Sunday"
+}
+
+print(json.dumps({
+    "now": now.strftime("%H:%M"),
+    "week": WEEKDAY[now.weekday()]
+}))
+

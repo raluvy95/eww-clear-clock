@@ -1,0 +1,18 @@
+// custom theme, based on catppuccin
+* {
+    all: unset;
+}
+
+.clock {
+    font-family: "Outfit";
+    font-weight: bold;
+    font-size: 148px;
+    color: white;
+}
+
+.week {
+    font-family: "Smooch";
+    font-size: 64px;
+    color: purple;
+    padding-top: 40px;
+}
