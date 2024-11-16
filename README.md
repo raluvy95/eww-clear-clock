@@ -2,7 +2,7 @@
 EWW configuration inspired by [Clear Clock KDE widget](https://github.com/qewer33/ClearClock)
 
 To make this work perfectly, you need to install fonts required by this config.
-The following
+The following fonts are:
 - Outfit
 - Smooch
 
